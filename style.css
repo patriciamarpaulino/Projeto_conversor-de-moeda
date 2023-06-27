@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #118ab2;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 20px 24px 23px;
+
+    /*  aplica para os 4 lados
+    padding: 44px 24px;/*  1) cima e baixo 2) lados
+    padding: 44px 24px 23px; /*  1) cima  2) lados 3) baixo
+    padding: 44px 24px 23px 12px; /*  1) cima  2) direita 3) baixo 4) esquerda*/
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer;
+
+}
+
+button {
+    background: #ef476f;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #ef476f;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 12px;
+}
+
+.currency-value {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
