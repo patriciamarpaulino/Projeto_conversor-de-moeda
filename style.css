@@ -99,8 +99,12 @@ section {
     font-size: 12px;
 }
 
-.currency-value {
+.currency-value, .currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
 }
+/* orientação para responsividade
+portrait: altura maior que a largura
+landscape: largura maior que a altura 
+*/
